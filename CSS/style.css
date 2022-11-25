@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap");
+body {
+  background: #3ebeff;
+  margin: 0px;
+}
+
+.container {
+  position: relative;
+  max-width: 81rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 3rem;
+  z-index: 10;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.img {
+  position: relative;
+  right: 40px;
+  width: 150px;
+}
+
+.links li {
+  margin-right: 1px;
+}
+
+.links ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.links a {
+  color: white;
+  margin-left: 1.5rem;
+  display: inline-block;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.links a:hover {
+  color: var(--DarkBlueColor);
+  transform: scale(1.05);
+}
+
+.btn {
+  display: inline-block;
+  width: 50px;
+  padding: 0.9rem 1.9rem;
+  color: black !important;
+  background-color: white;
+  border-radius: 20px;
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: var(--GrayishBlue);
+  transform: scale(1);
+}
+
+.header {
+  background: #3ebeff;
+}
+
+.main-page {
+  background: #3ebeff;
+  margin: 0px;
+}
+
+.second-page {
+  background: #fff;
+  margin: 0px;
+}
+
+.orange-img {
+  width: 1200px;
+  margin-left: 120px;
+}
+
+.container {
+  display: flex;
+}
+
+.left {
+  background: #fff;
+  width: 1200px;
+}
+
+.egg-img {
+  position: relative;
+  left: 55px;
+}
+
+.stand-out {
+  position: relative;
+  right: 0px;
+}
+
+.container1 {
+  display: flex;
+  background-color: #fff;
+}
+
+.container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left2-texts {
+  width: 300px;
+  position: relative;
+  bottom: 200px;
+}
+
+.right2-texts {
+  width: 300px;
+  position: relative;
+  bottom: 200px;
+}
+
+.four-img {
+  width: 360px;
+  margin-left: 5px;
+}
+
+footer {
+  background: #91d3c5;
+}
+
+.main-page h1 {
+  font-family: "Fraunces", serif;
+  color: #fff;
+  font-size: 70px;
+  padding-top: 20px;
+  padding-left: 450px;
+}
